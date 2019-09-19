@@ -1,5 +1,4 @@
 #pragma once
-extern void *testVar;
-extern int testIntVar;
-extern int testFunc(int);
-extern void testFunc2(void);
+extern int testdataA;
+extern int testdataB;
+extern void testSWC(void);
