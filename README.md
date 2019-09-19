@@ -2,8 +2,7 @@
 
 Build
 ```
-$ ./dltest.exe
--bash-4.4$ make
+$ make
 cc    -c -o dltest.o dltest.c
 gcc -rdynamic -L. -o dltest dltest.o -Wl,--whole-archive -ldltest -Wl,--no-whole-archive -ldl
 ```
